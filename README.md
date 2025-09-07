@@ -18,11 +18,7 @@ Other operations like `store`, `update`, and `delete` exist in the controller bu
 git clone https://github.com/your-username/book-api.git
 cd book-api
 
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate --seed
-php artisan serve
+
 
 
 | Method | Endpoint    | Description             |
@@ -32,17 +28,6 @@ php artisan serve
 
 
 
-[
-    {
-        "id": 1,
-        "title": "Book Title",
-        "author": "Author Name",
-        "published_year": "2025",
-        "created_at": "2025-09-07T13:45:00.000000Z",
-        "updated_at": "2025-09-07T13:45:00.000000Z"
-    },
-    ...
-]
 
 
 
